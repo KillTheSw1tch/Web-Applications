@@ -1,0 +1,135 @@
+html {
+    background-color: #282828;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    padding: 1em;
+}
+
+header>.slogo {
+    text-align: left;
+    margin-top: -60px;
+}
+
+footer {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding: 1em;
+}
+
+footer>.bottomSlogo {
+    text-align: right;
+    margin-top: -60px;
+}
+
+#content {
+
+    display: flex;
+    flex: 1 1 auto;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#content>.group3,
+#content>.group1,
+#content>.group2 {
+    padding: 20px;
+    margin: 6px;
+    border-radius: 30px;
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 30%;
+    max-height: 100%;
+    position: relative;
+}
+
+#content>.group3 img,
+#content>.group2 img,
+#content>.group1 img {
+    flex: 1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+}
+
+
+#content>.group1 .item1 {
+    color: whitesmoke;
+    z-index: 2;
+}
+
+#content>.group1 .item1 p {
+    font-size: larger;
+    margin-top: 38px;
+}
+
+#content>.group2 .item3,
+#content>.group2 .item5 {
+    color: whitesmoke;
+    z-index: 2;
+}
+
+#content>.group4 .item4,
+#content>.group3 .item6 {
+    color: whitesmoke;
+    z-index: 2;
+}
+
+#content>.group1,
+#content>.group3 {
+    flex: 1 1 10%;
+}
+
+#content>.group3 .item4 {
+    color: whitesmoke;
+    height: 90%;
+    z-index: 2;
+}
+
+#content>.group3 .item6 {
+    height: 10%;
+    background-color: #282828;
+    border-radius: 30px;
+}
+
+#content>.group3 .item6 p {
+    font-size: larger;
+    margin-top: 35px;
+}
+
+#content>.group2 .item3 {
+    padding: 5px;
+    height: 10%;
+    background-color: #282828;
+    border-radius: 30px;
+}
+
+#content>.group2 .item3 p {
+    font-size: larger;
+    margin-top: 35px;
+}
+
+#content>.group2 .item5 {
+    color: whitesmoke;
+    margin-top: 10px;
+    padding: 5px;
+    height: 90%;
+}
